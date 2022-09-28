@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <IncludePath>F:\Programing\Tool\OpenCV\opencv\build\x64\vc15\bin;F:\Programing\Tool\OpenCV\opencv\build\include\opencv2;F:\Programing\Tool\OpenCV\opencv\build\include;C:\Program Files (x86)\ZBar\include;$(IncludePath)</IncludePath>
+    <ReferencePath>$(ReferencePath)</ReferencePath>
+    <LibraryPath>F:\Programing\Tool\OpenCV\opencv\build\x64\vc15\lib;C:\Program Files (x86)\ZBar\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\Programing\Tool\eigen-3.4.0;F:\Programing\Tool\OpenCV\opencv\build\x64\vc15;C:\Program Files %28x86%29\ZBar\include\zbar;C:\Program Files (x86)\ZBar\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>F:\Programing\Tool\opencv\build\x64\vc15\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opencv_world460d.lib;opencv_world460.lib;libzbar-0.lib;libzbar64-0.lib;libiconv.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>
